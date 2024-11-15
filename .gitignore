@@ -1,0 +1,12 @@
+# Any binaries, intermediate binaries or project files
+**/bin
+**/bin-int
+**/project
+
+# Visual studio files and solution files
+.vs/
+*.sln
+
+#clang compilation database
+compile_commands.json
+.cache/
