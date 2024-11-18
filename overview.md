@@ -81,16 +81,22 @@ Loops allow you to execute expressions until some condition is reached.
 
 ### Functions
 
-Functions allow you to organise your code in reusable procedures.
+Functions allow you to organise the logic of your code in reusable procedures.
 
 ![function_declaration](./assets/function_declaration.png)
 
 ### Classes and Structs
 
+Structs and classes allow for organisation of data.
 
+![struct_class_declaration](./assets/struct_class.png)
 
 ### Pointers
 
 Here is the mental model of memory you should have:
 
 ![memory_layout](./assets/memory_layout.png)
+
+This is the syntax for pointers:
+
+![memory_layout](./assets/pointer_syntax.png)
