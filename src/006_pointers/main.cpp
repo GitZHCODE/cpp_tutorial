@@ -26,9 +26,21 @@ int main()
     //Creating a reference to a variable
     int* number_ref = &number;
 
+    //Declaration of a C-style array
+    int array_of_ints[] = {1, 2, 3, 4, 5};
+
+    //The variable for a C-style array is just
+    //the pointer of the first element in the array.
+    int* first_element_ptr = array_of_ints;
+
 #endif //_DEBUG_
 
 #ifdef _EXERCISE_
+
+    int array_of_numbers[] = {22, 84, -20, 51, 12};
+
+    //Write a function that takes a pointer to an array as input
+    //and returns a pointer to the largest value.
 
 #endif //_EXERCISE_
 }

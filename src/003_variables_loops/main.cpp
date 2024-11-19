@@ -25,6 +25,7 @@ int main()
     const std::string letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
     //######-STL-CONTAINERS-######
+    // < > syntax specifies the template arguments
 
     std::array<int, 2> indicies = {45, 47}; //Array
 
@@ -58,6 +59,17 @@ int main()
         sum+=val;
     }
     printf("Sum of doubles: %.2f", sum);
+
+    //Break and continue
+    int count = 0;
+    while(true) //infinite loop
+    {
+        if(count % 2 == 0)
+            continue; //skips to the next iteration of the loop.
+        if(count == 7)
+            break; //breaks out of the loop.
+        printf("Count is odd: %d", count);
+    }
 
 #endif //_DEBUG_
 

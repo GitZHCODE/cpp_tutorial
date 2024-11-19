@@ -25,6 +25,7 @@ int sum(const std::vector<int>& numbers)
     return out;
 }
 
+//void is a return type for when the function returns nothing
 void hello()
 {
     printf("Hello\n");
@@ -50,11 +51,23 @@ int main()
 
 #ifdef _EXERCISE_
 
-    //Write a function that compares the sums of two std::vector<int>
-    // and returns the vector with the largest sum
+    //Implement the functions setup and update, so the 
+    //console output looks like:
+    // 
+    //"Initial setup"
+    //"Update 1"
+    //"Update 2"
+    //"Update 3"
+    //"Update 4"
 
-    std::vector<int> list_1 = {10, 3, 15, 7};
-    std::vector<int> list_2 = {21, 2, 1, 19};
+    bool g_exit = false;
+    
+    setup();
+
+    while(!g_exit)
+    {
+        update(g_exit);
+    }
 
 #endif //_EXERCISE_
 }

@@ -36,8 +36,12 @@ int main()
 #endif //_DEBUG_
 
 #ifdef _EXERCISE_
+    //Implement a class called Hello so the code below produces
+    //the following output.
+    //"Hello"
+    //"Goodbye"
 
-    //Exercise for classes and structs
+    Hello greetings;
 
 #endif //_EXERCISE_
 }
